@@ -13,21 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{C1161E60-0271-4300-BC3C-4E1BC5688840}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{82097855-FB5D-4AE4-9D0B-8E925010A40B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{C8449864-8A40-4133-B624-059D7096601B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{1D3425E4-AAE8-4AEA-8BAA-B19EFDD5101A}"
-	ProjectSection(SolutionItems) = preProject
-		Product.cs = Product.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreatProduct", "CreatProduct", "{066B2447-BF34-464E-89A5-615A3A743567}"
-	ProjectSection(SolutionItems) = preProject
-		CreateProductEndpoint.cs = CreateProductEndpoint.cs
-		CreateProductHandler.cs = CreateProductHandler.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,10 +35,6 @@ Global
 		{CCB96881-A224-4374-9B6E-96937C4956F7} = {7584A9A9-293E-493E-80E5-FD1543AB1B36}
 		{FCEA1234-4D3F-4915-9345-FE4ACB265D8A} = {CCB96881-A224-4374-9B6E-96937C4956F7}
 		{C1161E60-0271-4300-BC3C-4E1BC5688840} = {B81A866A-0FC2-497C-A735-AC923012DB7E}
-		{82097855-FB5D-4AE4-9D0B-8E925010A40B} = {CCB96881-A224-4374-9B6E-96937C4956F7}
-		{C8449864-8A40-4133-B624-059D7096601B} = {82097855-FB5D-4AE4-9D0B-8E925010A40B}
-		{1D3425E4-AAE8-4AEA-8BAA-B19EFDD5101A} = {CCB96881-A224-4374-9B6E-96937C4956F7}
-		{066B2447-BF34-464E-89A5-615A3A743567} = {C8449864-8A40-4133-B624-059D7096601B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {575CEE76-68B3-4CF3-A837-FE5E8713AFEF}
